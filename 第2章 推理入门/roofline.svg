@@ -1,0 +1,27 @@
+<svg width="900" height="560" viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg">
+<!-- 坐标轴 -->
+<line x1="100" y1="480" x2="820" y2="480" stroke="black" stroke-width="2"/>
+<line x1="100" y1="480" x2="100" y2="60" stroke="black" stroke-width="2"/>
+<!-- 箭头 -->
+<polygon points="820,480 810,475 810,485" fill="black"/>
+<polygon points="100,60 95,70 105,70" fill="black"/>
+<!-- Roofline -->
+<line x1="100" y1="480" x2="400" y2="180" stroke="black" stroke-width="3"/>
+<line x1="400" y1="180" x2="760" y2="180" stroke="black" stroke-width="3"/>
+<!-- 拐点虚线 -->
+<line x1="400" y1="180" x2="400" y2="480" stroke="gray" stroke-width="2" stroke-dasharray="8,8"/>
+<line x1="100" y1="180" x2="400" y2="180" stroke="gray" stroke-width="2" stroke-dasharray="8,8"/>
+<!-- 拐点 -->
+<circle cx="400" cy="180" r="7" fill="skyblue"/>
+<!-- 坐标轴 -->
+<text x="20" y="80" font-size="22">FLOP/s</text>
+<text x="20" y="110" font-size="20">计算性能</text>
+<text x="610" y="525" font-size="20">算术强度 FLOP/Byte</text>
+<text x="82" y="505" font-size="18">0</text>
+<!-- 区域 -->
+<text x="150" y="250" font-size="20">memory-bound 区域</text>
+<text x="470" y="245" font-size="20">compute-bound 区域</text>
+<text x="145" y="300" font-size="18">斜率 = 内存带宽</text>
+<text x="675" y="160" font-size="20">峰值算力</text>
+<text x="370" y="155" font-size="20">拐点</text>
+</svg>
